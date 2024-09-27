@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+    font-family: 'Poppins', Helvetica, sans-serif !important;
+}
+.fuulbodtpendding {
+    margin: auto;
+    text-align: center;
+
+}
+.form-header h2 {
+    text-align: left;
+    color: #3a3a3a;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.seth2tag{
+     text-align: left;
+    color: rgb(45, 45, 45);
+    font-weight: 700;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+    font-family: 'Poppins', Helvetica, sans-serif !important;
+}
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 50px;
+    background: #fafafa !important;
+}
+.item-select label {
+    margin-left: 2px;
+    font-size: 16px;
+}
+.billing p {
+    border-bottom: 1px solid #bbbbbb;
+    padding: 10px 0px;
+    text-align: right;
+}
+.item-price {
+    gap: 4px;
+    font-size: 14px;
+    color: #2f2f2f;
+    display: flex;
+}
+.billing-info-header {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.billing-info-header i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+.divider {
+    border: 0;
+    border-top: 1px solid #d1d1d1;
+    padding: 0;
+    margin: 0;
+}
+.online_flex .form-group {
+    width: 100%;
+}
+.online_flex {
+    display: flex;
+    width: 100%;
+    gap: 51px;
+}
+.form-header img {
+    margin-bottom: 55px;
+}
+.form-container {
+    border-radius: 8px;
+    text-align: start;
+    padding: 0px 0px 0px 0px;
+}
+.creeditwidhtinput{
+    width: 560px !important;
+}
+.creeditwidhtinputi{
+    width: 280px !important;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+div#col-full-157 {
+    padding: 0;
+}
+label {
+    font-size: 11px;
+    color: rgba(47, 47, 47, 0.8);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+.billing-container {
+    padding: 45px 10px 10px 10px;
+    font-family: 'Poppins';
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input, .widhtinput {
+    box-shadow: inset 0px 2px 4px rgba(128,128,128,0.15),0px 3px 2px rgba(140,157,169,0.14) !important;
+    border: 1px solid rgba(0,0,0,0.2) !important;
+}
+input::placeholder {
+    color: #000 !important;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.sq-card-wrapper .sq-card-iframe-container {
+   border: 1px solid rgba(0,0,0,0.2) !important;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: inset 0px 2px 4px rgba(128,128,128,0.15),0px 3px 2px rgba(140,157,169,0.14) !important;
+}
+input:focus,
+select:focus {
+    border-color: #1d8cdb; /* Border color when focused */
+    outline: none;
+}
+.credit-card,
+.cvc-code,
+.expiry-month,
+.expiry-year {
+    display: inline-block;
+    width: calc(50% - 10px);
+}
+.cvc-code {
+    margin-left: 20px;
+}
+.expiry-month {
+    width: calc(33% - 10px);
+}
+.expiry-year {
+    width: calc(33% - 10px);
+    margin-left: 10px;
+}
+.order-container {
+    text-align: center;
+    margin: 20px 0 60px 0px;
+}
+.complete-order-button {
+    background-color: #e8a72e;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    font-family: "Fjalla One", Helvetica, sans-serif !important;
+}
+.payment-icons {
+    margin: 10px 0;
+}
+.payment-icons img {
+    height: 40px;
+    margin: 0 10px;
+}
+.terms-text {
+    font-size: 13px;
+    color: #333;
+}
+.terms-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.terms-link:hover {
+    text-decoration: underline;
+}
+.billing_info_main {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+.item-select label {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #2f2f2f !important;
+}
+.billing-container p {
+    padding: 0;
+    margin: 0;
+    color: #2f2f2f;
+    font-size: 14px;
+    font-weight: 600;
+}
+.fa_tag_icn_text {
+    display: flex !important;
+    align-items: center;
+    gap: 7px;
+    padding-left: 4px;
+    border-bottom: 1px solid #2f2f2f; 
+}
+.fa_tag_icn_text i {
+    color: #2f2f2f;
+    font-size: 18px !important;
+}
+.item-price p {
+    font-weight: unset;
+}
+.error-border {
+    border-color: rgb(185, 21, 23) !important;
+    border-width: 2px !important;
+}
+.seth2tag h2 {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+.seth2tag {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 30px;
+}
+.seth2tag i {
+    font-size: 15px !important;
+}
+.billing p {
+    padding: 0;
+    font-size: 16px !important;
+    margin: 0;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+.billing {
+    padding-top: 35px;
+}
+.billing p {
+    padding: 0;
+    font-size: 16px !important;
+    margin: 0;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+.billing {
+    padding-top: 35px;
+}
+.professional_package p {
+    padding: 0;
+    margin: 0;
+    color: #2f2f2f !important;
+    font-size: 14px;
+}
+.professional_package {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 50px !important;
+}
+div#payment-status-container {
+    box-shadow: 0px 0px 10px 0px #68953c;
+    margin: 0px 0px 30px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', Helvetica, sans-serif !important;
+    font-size: 14px;
+    color: #323232;
+}
+.containerInner.ui-sortable {
+    PADDING: 0 !IMPORTANT;
+}
+div#col-full-157 {
+    padding: 0PX !important;
+}
+.button-faded {
+    opacity: 0.5; 
+    cursor: not-allowed; 
+}
+.order-container img {
+    width: 100%;
+    max-width: 25%;
+}
+div#row--81281 {
+    padding: 0px !important;
+    border: 1px solid red !important;
+}
+.fuulbodtpendding input::placeholder {
+    color: #757575 !important;
+}
+#payment-form > div:nth-child(1) {
+    margin-top: 35px;
+}
+@media only screen and (max-width: 480px) {
+.order-container img {
+    width: 100% !important;
+    max-width: 70% !important;
+}
+.terms-text {
+    font-size: 10px;
+    color: #333;
+}
+.seth2tag {
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width: 768px) {
+
+    div#section--57644 .containerInner.ui-sortable {
+        padding: 0px 0px !important;
+    }
+    .item-row {
+        margin-bottom: 30px !important;
+    }
+    .item-price {
+        display: block;
+        text-align: right;
+    }
+    .item-select {
+        text-align: left;
+    }
+    .billing-container {
+        padding: 30px 0px 0px 0px;
+    }
+    .credit-card,
+    .cvc-code,
+    .expiry-month,
+    .expiry-year {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    #payment-form > div:nth-child(7) {
+        display: block;
+    }
+    #payment-form > div:nth-child(6) {
+        display: block;
+    }
+    .billing_info_main {
+        margin-bottom: 0px;
+    }
+    .form-header img {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .form-container form#payment-form {
+        padding: 0px !important;
+    }
+    .fuulbodtpendding .form-container {
+        padding: 0px !important;
+    }
+    body > div > div.form-header {
+        padding: 0px 0px 10px 0px !important;
+    }
+    .col-inner.bgCover.noBorder.borderSolid.border3px.cornersAll.radius0.shadow0.P0-top.P0-bottom.P0H.noTopMargin {
+        padding: 0px !important;
+    }
+}
